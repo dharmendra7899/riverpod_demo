@@ -7,7 +7,7 @@ class ApiClient {
 
   factory ApiClient.create() {
     final dio = Dio(BaseOptions(
-      baseUrl: 'https://api.policyvault.in/api/v1.0/',
+      baseUrl: 'your-domain/api/v1.0/',
       contentType: 'application/json',
     ));
 
