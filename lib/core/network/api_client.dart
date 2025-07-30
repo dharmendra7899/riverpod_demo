@@ -7,7 +7,8 @@ class ApiClient {
 
   factory ApiClient.create() {
     final dio = Dio(BaseOptions(
-      baseUrl: 'your-domain/api/v1.0/',
+      ///change your domain here
+      baseUrl: 'https://www.google.com/api/v1.0/',
       contentType: 'application/json',
     ));
 
